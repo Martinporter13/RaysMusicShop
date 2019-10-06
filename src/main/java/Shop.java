@@ -25,6 +25,10 @@ public class Shop {
     public void removeStockItem(){
         stock.clear();
     }
+
+    public void removeStockByItem(ISell item){
+        stock.remove(item);
+    }
 }
 
 
