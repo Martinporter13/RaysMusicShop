@@ -47,4 +47,9 @@ public class SaxophoneTest {
         assertEquals(480, saxophone.getSellPrice(400), 0.0);
     }
 
+    @Test
+    public void canGetMarkUp(){
+        assertEquals(80, saxophone.getMarkUp(400), 0.0);
+    }
+
 }

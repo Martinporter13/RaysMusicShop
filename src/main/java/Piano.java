@@ -29,4 +29,8 @@ public class Piano extends Instrument implements IPlay, ISell {
     public double getSellPrice(double sellPrice) {
         return buyPrice * 1.2;
     }
+
+    public double getMarkUp(double markUp) {
+        return getSellPrice(markUp) - buyPrice;
+    }
 }
